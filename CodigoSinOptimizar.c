@@ -37,13 +37,13 @@ printf("\n**** MENU DE OPCIONES **** \n");
     
 printf("\n   1. Calcula la suma de pares hasta el 10000");
     
-printf("\n   2. Calcula el cubo (1-100)");
+printf("\n   2. Calcula el cubo (1-10000)");
     
-printf("\n   3. Producto por 100 (1-100)");
+printf("\n   3. Producto por 100 (1-10000)");
     
-printf("\n   4. Calcula Fibonacci (0-1000)");
+printf("\n   4. Calcula Fibonacci (0-10000)");
     
-printf("\n   5. Calcula factorial (1-100)");
+printf("\n   5. Calcula factorial (1-10000)");
     
 printf("\n   6. Numeros (1-100) en una matriz");
     
