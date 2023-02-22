@@ -1,0 +1,26 @@
+=21868== 
+==21868== HEAP SUMMARY:
+==21868==     in use at exit: 2,407,948 bytes in 49,085 blocks
+==21868==   total heap usage: 49,087 allocs, 2 frees, 2,409,996 bytes allocated
+==21868== 
+==21868== 4 bytes in 1 blocks are definitely lost in loss record 1 of 5
+==21868==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==21868==    by 0x10929A: main (CodigoSinOptimizar.c:33)
+==21868== 
+==21868== 1,230,000 bytes in 3 blocks are definitely lost in loss record 5 of 5
+==21868==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==21868==    by 0x109D46: OrMatriz(int) (CodigoSinOptimizar.c:393)
+==21868==    by 0x109937: main (CodigoSinOptimizar.c:256)
+==21868== 
+==21868== LEAK SUMMARY:
+==21868==    definitely lost: 1,230,004 bytes in 4 blocks
+==21868==    indirectly lost: 0 bytes in 0 blocks
+==21868==      possibly lost: 0 bytes in 0 blocks
+==21868==    still reachable: 1,177,944 bytes in 49,081 blocks
+==21868==         suppressed: 0 bytes in 0 blocks
+==21868== Reachable blocks (those to which a pointer was found) are not shown.
+==21868== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==21868== 
+==21868== For lists of detected and suppressed errors, rerun with: -s
+==21868== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+
