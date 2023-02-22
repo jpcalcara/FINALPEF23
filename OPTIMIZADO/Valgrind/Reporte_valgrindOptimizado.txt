@@ -1,0 +1,10 @@
+****************************==23460== 
+==23460== HEAP SUMMARY:
+==23460==     in use at exit: 0 bytes in 0 blocks
+==23460==   total heap usage: 31,686 allocs, 31,686 frees, 771,400 bytes allocated
+==23460== 
+==23460== All heap blocks were freed -- no leaks are possible
+==23460== 
+==23460== For lists of detected and suppressed errors, rerun with: -s
+==23460== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
